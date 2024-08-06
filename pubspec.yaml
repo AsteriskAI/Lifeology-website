@@ -1,0 +1,44 @@
+name: lifeology
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  easy_puzzle_game: ^0.0.2
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.0
+  image: ^4.2.0
+  loading_indicator: ^3.1.1
+  table_calendar: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: PTSerif
+      fonts:
+        - asset: fonts/PTSerif-Regular.ttf
+          weight: 700
+    - family: PTSERIFF  
+      fonts:
+        - asset: fonts/PTSerif-Bold.ttf 
+          weight: 700  
+  assets:
+    - assets/yep.png
+    - assets/space.png
+    - assets/person.png
+    - assets/logo.png
+    - assets/cal.png
+    - assets/coin.png
+    - assets/meeting.png
+    - assets/club.png
+    - assets/quiz.png
+    - assets/event.png
+  uses-material-design: true
